@@ -68,9 +68,9 @@
         if (fieldItem.ClassName == "Sitecore.Form.Web.UI.Controls.CheckboxList")
         {
           string listFieldItemsDelimiterCharacter = Sitecore.Configuration.Settings.GetSetting(ConfigKey.ListFieldItemsDelimiterCharacter, string.Empty);
-          if (!listFieldItemsDelimiterCharacter.IsNullOrEmpty() && listFieldItemsDelimiterCharacter.Length == 1)
+          if (!listFieldItemsDelimiterCharacter.IsNullOrEmpty())
           {
-            string[] values = text.Split(Convert.ToChar(listFieldItemsDelimiterCharacter));
+            string[] values = text.Split(new string[] { listFieldItemsDelimiterCharacter }, StringSplitOptions.None);
             StringBuilder stringBuilder = new StringBuilder();
             foreach (string current in values)
             {
