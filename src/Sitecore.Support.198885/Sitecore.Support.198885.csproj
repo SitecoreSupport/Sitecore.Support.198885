@@ -68,12 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.198885.config" />
-    <Content Include="Reference\Sitecore.Forms.Core.dll" />
-    <Content Include="Reference\Sitecore.WFFM.Abstractions.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reference\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
