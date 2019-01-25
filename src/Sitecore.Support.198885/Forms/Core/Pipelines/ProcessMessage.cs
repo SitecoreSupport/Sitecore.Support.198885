@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Support
+﻿namespace Sitecore.Support.Forms.Core.Pipelines
 {
   using Sitecore.Diagnostics;
   using Sitecore.StringExtensions;

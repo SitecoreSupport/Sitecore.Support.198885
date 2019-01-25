@@ -63,7 +63,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProcessMessage.cs" />
+    <Compile Include="Forms\Core\Pipelines\ProcessMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
