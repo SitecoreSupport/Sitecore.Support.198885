@@ -42,16 +42,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Forms.Core">
-      <HintPath>..\..\..\..\..\inetpub\wwwroot\sc902wffmstrange.local\bin\Sitecore.Forms.Core.dll</HintPath>
+    <Reference Include="Sitecore.Forms.Core, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\Sitecore.Forms.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.WFFM.Abstractions">
-      <HintPath>..\..\..\..\..\inetpub\wwwroot\sc902wffmstrange.local\bin\Sitecore.WFFM.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.WFFM.Abstractions, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\Sitecore.WFFM.Abstractions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -66,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.198885.config" />
+    <Content Include="Reference\Sitecore.Forms.Core.dll" />
+    <Content Include="Reference\Sitecore.WFFM.Abstractions.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
